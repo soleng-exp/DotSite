@@ -1,0 +1,15 @@
+{
+  "name": "exp-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:soleng-exp/DotSite.git",
+  "author": "soleng <so.leng@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "add": "yarn add --modules-folder=exp-web/wwwroot/lib"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1"
+  }
+}

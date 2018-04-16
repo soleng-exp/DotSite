@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Customer Profile";
+    Layout = "_Layout";
+}
+@model exp_web.Models.User
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h2>Customer Details</h2>
+ 
+<form asp-controller="Users" asp-action="ViewDetails" method="post">
+    <input id="Submit1" type="submit" value="Get Customer Details" />
+</form>
+ 
+<strong>Username : </strong> @ViewBag.Username <br />
+<strong>Birthday : </strong> @ViewBag.Birthday <br />
